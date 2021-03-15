@@ -186,22 +186,49 @@ body {
 	margin: 0px;
 }
 
+.othermiddle {
+	text-align: center;
+	}
+
 .subtitle {
 	margin:0;
-	padding-bottom: 20px;
 }
 
 .footer {
   padding:24px 0;
   background-color:#636366;
+  color:white;
+  height: 48px;
+}
+
+.social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.social > a {
+  font-size:25px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.social > a:hover {
   color:#f20e5e;
-  height: 34px;
 }
 
 .footer .copyright {
-  margin-top:35px;
   text-align:center;
   font-size:13px;
   color:black;
-  margin-bottom:0;
 }
+
+
+
