@@ -2,8 +2,10 @@
 
 body {
 	font-family: 'Montserrat',sans-serif;
-	background-color: #c1bdbd;
+	background-color: #F5F5F5;
 }
+
+/*First page,navbar and footer*/
 
 .navbar {
 	background-image: url("../images/banner.jpeg");
@@ -43,8 +45,9 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	text-align: center;
+	text-align:center;
 	padding-top: 150px;
+	margin: 0px;
 }
 
 .title-white {
@@ -82,6 +85,11 @@ body {
 	margin: 0 auto;
 	text-align: center;
 }
+.containerimage img {
+	width: 45px;
+	text-align: center;
+	padding: 20px;
+}
 
 .presentation{
 	text-decoration: underline;
@@ -95,11 +103,11 @@ body {
 }
 
 .card {
-	background-color: #636366;
+	background-color: #D4D3D9;
 	width: 300px;
 	text-align: center;
 	border-radius: 7px;
-	border:2px solid black;
+	border:2px solid #2E2E2E;
 	box-shadow: 3px 3px 5px black;
 }
 
@@ -196,7 +204,7 @@ body {
 
 .footer {
   padding:24px 0;
-  background-color:#636366;
+  background-color:#D4D3D9;
   color:white;
   height: 48px;
 }
@@ -214,10 +222,10 @@ body {
   display:inline-block;
   text-align:center;
   border-radius:50%;
-  border:1px solid #ccc;
+  border:2px solid #ccc;
   margin:0 8px;
-  color:inherit;
-  opacity:0.75;
+  color: inherit;
+  opacity:0.9;
 }
 
 .social > a:hover {
@@ -230,5 +238,179 @@ body {
   color:black;
 }
 
+/*aboutus page*/
 
+.avanttexte {
+	text-align: center;
+	color: #f20e5e;
+	text-decoration: underline;
+	margin: 10px;
+}
+
+.firsttext {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+.subtitleaboutusone {
+	text-align: left;
+	color: #f20e5e;
+	margin-left: 105px;
+	font-size: 23px;
+	margin-bottom: auto;
+}
+
+.containersecond {
+	width: 935px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.containersecond img {
+	width: 911px;
+	height: 350px;
+	padding: 12px;
+}
+
+.containerthird {
+	width: 935px;
+	margin: 0 auto;
+	text-align: center;
+}
+.subtitleaboutusecond {
+	text-align: right;
+	color: #f20e5e;
+	margin-right: 105px;
+	margin-top: 45px;
+	font-size: 23px;
+	margin-bottom: auto;
+}
+
+.middlejap {
+	color: #f20e5e;
+}
+
+.contactus {
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 15px;
+	font-size: 9px;
+	color: #f20e5e;
+}
+
+.contacttitle {
+	text-decoration: underline;
+	font-size: 11px;
+	margin:0px;
+}
+
+.containerfourth {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.containerfourth img {
+	width: 45px;
+}
+
+/*mangas page*/
+
+.liststyle {
+	width: 1255px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.presentations {
+	text-decoration: underline;
+	color: #f20e5e;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.lists {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 60px 30px;
+}
+
+.list {
+	background-color: #F5F5F5;
+	width: 300px;
+	text-align: center;
+	border-radius: 7px;
+}
+
+.list img {
+	width: 220px;
+	height: 220px;
+	padding: 16px;
+	border-radius: 5%;
+}
+
+.titremanga {
+	margin-bottom: 0px;
+
+}
+
+.soustitre {
+	color: #f20e5e;
+	padding:0px;
+	margin-top: 0px;
+}
+
+#btn-manga {
+    color: white;
+    text-decoration: none;
+    background-color: #f20e5e;
+    padding: 6px 5px;
+    border: 2px solid #f20e5e;
+    border-radius: 7px;
+}
+
+#btn-manga:hover {
+	background-color: white;
+	color: #f20e5e;
+	transition: 1s;
+}
+
+.conclusion {
+	width: 935px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px;
+	padding-bottom: 25px;
+	font-size: 12px;
+}
+
+.conclusion img {
+	width: 35px;
+}
+/*decoration page*/
+
+
+/*food page*/
+
+.loading {
+	width: 1255px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.loadingtext {
+	color: #f20e5e;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.loading img {
+	width: 220px;
+	height: 220px;
+	padding: 16px;
+	border-radius: 5%;
+}
 
