@@ -103,12 +103,9 @@ body {
 }
 
 .card {
-	background-color: #D4D3D9;
+	background-color: #F5F5F5;
 	width: 300px;
 	text-align: center;
-	border-radius: 7px;
-	border:2px solid #2E2E2E;
-	box-shadow: 3px 3px 5px black;
 }
 
 .card img {
@@ -238,6 +235,535 @@ body {
   color:black;
 }
 
+/*mangas page*/
+
+.mangaheader {
+	text-decoration: underline;
+	color: #f20e5e;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.containermanga {
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mangalist {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px 0px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-left:0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	border-right: 0px;
+	border-left: 0px;
+}
+
+.mangatitle {
+	color: #f20e5e;
+	margin:0;
+	padding-top: 20px;
+}
+
+.mangajapanese {
+	color: #f20e5e;
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+#btn-violet {
+    color: white;
+    text-decoration: none;
+    background-color: #f20e5e;
+    padding: 7px 27px;
+    border: 2px solid #f20e5e;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+#btn-violet:hover {
+	background-color: white;
+	color: #f20e5e;
+	transition: 1s;
+}
+
+.grid-mangaun {
+    background-image: url(../images/dbz.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangadeux {
+    background-image: url(../images/naruto.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangatrois {
+    background-image: url(../images/boruto.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangaquatre {
+    background-image: url(../images/b.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangacinq {
+    background-image: url(../images/aot.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangasix {
+    background-image: url(../images/bc.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangasept {
+    background-image: url(../images/mha.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangahuit {
+    background-image: url(../images/jjk.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-manganeuf {
+    background-image: url(../images/onepiece.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangadix {
+    background-image: url(../images/fma.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangaonze {
+    background-image: url(../images/hxh.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangadouze {
+    background-image: url(../images/ff.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangatreize {
+    background-image: url(../images/ds.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangaquatorze {
+    background-image: url(../images/haikyu.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangaquinze {
+    background-image: url(../images/fw.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangaseize {
+    background-image: url(../images/kuruko.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.conclusion {
+	width: 935px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px;
+	padding-bottom: 25px;
+	font-size: 12px;
+}
+
+.conclusion img {
+	width: 35px;
+}
+/*decoration page*/
+
+.decorationlayout {
+	width: 850px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.presentationdecoration {
+	text-decoration: underline;
+	color: #f20e5e;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.grid-container {
+	background-image: url("../images/decorationone.png");
+	height: 20vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-containerone {
+	background-image: url("../images/decorationtwo.png");
+	height: 20vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-containersecond {
+	background-image: url("../images/decorationthird.png");
+	height: 20vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-containerthird {
+	background-image: url("../images/decorationfour.png");
+	height: 20vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.titledecoration {
+	color: #f20e5e;
+	margin:0;
+	padding-top: 20px;
+}
+
+.japandecoration {
+	color: #f20e5e;
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+#btn-purple {
+    color: white;
+    text-decoration: none;
+    background-color: #f20e5e;
+    padding: 7px 27px;
+    border: 2px solid #f20e5e;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+#btn-purple:hover {
+	background-color: white;
+	color: #f20e5e;
+	transition: 1s;
+}
+
+.conclusiondecoration {
+	width: 935px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 12px;
+}
+
+.conclusiondecoration img {
+	width: 35px;
+}
+
+
+/*food page*/
+
+.foodheader {
+	text-decoration: underline;
+	color: #f20e5e;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.containerfood {
+	width: 935px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.textfood {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+.foodjap {
+	color: #f20e5e;
+}
+
+.menus {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px 0px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-left:0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	border-right: 0px;
+	border-left: 0px;
+}
+
+.japandecorationfood {
+	color: #f20e5e;
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+#btn-pink {
+    color: #f20e5e;
+    writing-mode: vertical-rl;
+    font-weight: bold;
+    font-size: 20px;
+    text-orientation: upright;
+    text-decoration: none;
+    padding: 7px 27px;
+    margin-bottom: 10px;
+}
+
+#btn-pink:hover {
+	color: white;
+	transition: 1s;
+}
+
+.grid-food {
+    background-image: url(../images/sushi.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+}
+
+.grid-foodone {
+	background-image: url("../images/maki.png");
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-foodsecond {
+	background-image: url("../images/yakitori.png");
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-foodthird {
+	background-image: url("../images/curry.png");
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-foodfourth {
+	background-image: url("../images/fluffycake.png");
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-foodfifth {
+	background-image: url("../images/mochi.png");
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-foodsix {
+	background-image: url("../images/doriyaki.png");
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-foodseven {
+	background-image: url("../images/taiyaki.png");
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.conclusionfood {
+	width: 935px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 12px;
+}
+
+.conclusionfood img {
+	width: 35px;
+	padding-right: 87px;
+}
+
+
 /*aboutus page*/
 
 .avanttexte {
@@ -257,7 +783,7 @@ body {
 	text-align: left;
 	color: #f20e5e;
 	margin-left: 105px;
-	font-size: 23px;
+	font-size: 20px;
 	margin-bottom: auto;
 }
 
@@ -283,7 +809,7 @@ body {
 	color: #f20e5e;
 	margin-right: 105px;
 	margin-top: 45px;
-	font-size: 23px;
+	font-size: 20px;
 	margin-bottom: auto;
 }
 
@@ -314,103 +840,3 @@ body {
 .containerfourth img {
 	width: 45px;
 }
-
-/*mangas page*/
-
-.liststyle {
-	width: 1255px;
-	margin: 0 auto;
-	text-align: center;
-}
-
-.presentations {
-	text-decoration: underline;
-	color: #f20e5e;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.lists {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-gap: 60px 30px;
-}
-
-.list {
-	background-color: #F5F5F5;
-	width: 300px;
-	text-align: center;
-	border-radius: 7px;
-}
-
-.list img {
-	width: 220px;
-	height: 220px;
-	padding: 16px;
-	border-radius: 5%;
-}
-
-.titremanga {
-	margin-bottom: 0px;
-
-}
-
-.soustitre {
-	color: #f20e5e;
-	padding:0px;
-	margin-top: 0px;
-}
-
-#btn-manga {
-    color: white;
-    text-decoration: none;
-    background-color: #f20e5e;
-    padding: 6px 5px;
-    border: 2px solid #f20e5e;
-    border-radius: 7px;
-}
-
-#btn-manga:hover {
-	background-color: white;
-	color: #f20e5e;
-	transition: 1s;
-}
-
-.conclusion {
-	width: 935px;
-	margin: 0 auto;
-	text-align: center;
-	padding: 50px;
-	padding-bottom: 25px;
-	font-size: 12px;
-}
-
-.conclusion img {
-	width: 35px;
-}
-/*decoration page*/
-
-
-/*food page*/
-
-.loading {
-	width: 1255px;
-	margin: 0 auto;
-	text-align: center;
-}
-
-.loadingtext {
-	color: #f20e5e;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.loading img {
-	width: 220px;
-	height: 220px;
-	padding: 16px;
-	border-radius: 5%;
-}
-
